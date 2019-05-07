@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>GitHub Repo Lookup</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <h1>GitHub Repo Lookup</h1>
+        <form id="repo-lookup">
+            <label>Enter GitHub handle to view public repos:</label>
+            <input class="repo-name" type="text" required>
+            <button type="submit">Submit</button>
+        </form>
+        <section class="results hidden">
+            <h2>View Repos:</h2>
+            <ul class="results">
+            </ul>
+        </section>
+        <p class="error-message"></p>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="index.js"></script>
+    </body>
+</html>
